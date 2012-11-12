@@ -40,7 +40,7 @@ set incsearch                   " set incremental search
 set tags+=./tags                " include local tags
 
 " status line
-set stl=%f\ (%Y)\ Line\ %l/%L\ -\ Column\ %c\ %w%h%r\ %{VCSStatus()}
+set stl=%f\ (%Y)\ Line\ %l/%L\ -\ Column\ %c\ %w%h%r
 
 filetype on                      " filetype plugin
 filetype plugin indent on        " switch it on
